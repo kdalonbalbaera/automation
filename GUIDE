@@ -49,7 +49,7 @@ AUTOMATION GUIDE
 
 
 
-        SSH TO COREBABA
+        SSH TO COREBABA (IN CMD ROCKY LINUX)
             ssh admin@10.21.1.4
             ssh-keygen -f "/root/.ssh/known_hosts"
             ssh admin@10.21.1.4
@@ -66,14 +66,14 @@ AUTOMATION GUIDE
 
 
 
-      SSH TO CUCM
+      SSH TO CUCM (IN CMD ROCKY LINUX)
 
         ssh admin@10.21.100.8
         Password: pass
         exit
 
 
-      SSH TO EDGE
+      SSH TO EDGE (IN CMD ROCKY LINUX)
 
         ssh admin@10.21.21.1
         Password: pass
