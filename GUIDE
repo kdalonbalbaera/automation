@@ -1,0 +1,24 @@
+AUTOMATION GUIDE
+
+
+1. VMWare Rocky Linux
+Settings
+Memory: 8GB
+Processors: 4
+Hard Disk: 25GB
+Network Adapter: NAT
+
+2. Edit BASIC-CONFIG
+Line 112-147
+Line 151-159
+Line 173-192
+Line 217-244
+
+
+3. Edit call.yml
+
+Comment out your ip address in the dial peer voice
+
+4. Edit core.yml
+5. Edit ospfedge.yml
+6. Edit iphone.yml
