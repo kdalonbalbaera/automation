@@ -8,6 +8,9 @@ Processors: 4
 Hard Disk: 25GB
 Network Adapter: NAT
 
+Login: root
+Password: C1sc0123
+
 2. Edit BASIC-CONFIG
 Line 112-147
 Line 151-159
