@@ -1,4 +1,17 @@
 AUTOMATION GUIDE
+ANSIBLE - FOR NETWORK AUTOMATION
+
+GITHUB
+ROCKY
+CISCO
+GUI
+
+PORTS
+21 - FTP
+22 = SSH
+23 - Telnet
+53 - DNS
+
 
 1. VMWare Rocky Linux
     Settings
@@ -83,9 +96,3 @@ AUTOMATION GUIDE
       ls
       ansible-playbook run_all.yml
 
-
-
-
-
-  
-  
