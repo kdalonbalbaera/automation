@@ -10,16 +10,16 @@
         commands:
           - configure terminal
           - dial-peer voice 1 pots
-          - destination-pattern 5200
+          - destination-pattern 6100
           - port 0/0/0
           - dial-peer voice 2 pots
-          - destination-pattern 5201
+          - destination-pattern 6101
           - port 0/0/1
           - dial-peer voice 3 pots
-          - destination-pattern 5202
+          - destination-pattern 6102
           - port 0/0/2
           - dial-peer voice 4 pots
-          - destination-pattern 5203
+          - destination-pattern 61203
           - port 0/0/3
           - end
       vars:
@@ -35,24 +35,24 @@
           - no auto-reg-ephone
           - max-ephones 5
           - max-dn 20
-          - ip source-address 10.52.100.8 port 2000
+          - ip source-address 10.61.100.8 port 2000
           - create cnf-files
           - ephone-dn 1
-          - number 5211
+          - number 6111
           - ephone-dn 2
-          - number 5222
+          - number 6122
           - ephone-dn 3
-          - number 5233
+          - number 6133
           - ephone-dn 4
-          - number 5244
+          - number 6144
           - ephone-dn 5
-          - number 5255
+          - number 6155
           - ephone-dn 6
-          - number 5266
+          - number 6166
           - ephone-dn 7
-          - number 5277
+          - number 6177
           - ephone-dn 8
-          - number 5288
+          - number 6188
           - ephone 1
           - Mac-address ccd8.c1fa.dd39
           - type 8945
@@ -93,8 +93,8 @@
         commands:
           - configure terminal
           - router ospf 1
-          - router-id 10.52.100.8
-          - network 10.52.100.0 0.0.0.255 area 0
+          - router-id 10.61.100.8
+          - network 10.61.100.0 0.0.0.255 area 0
           - end
       vars:
         ansible_network_os: ios
